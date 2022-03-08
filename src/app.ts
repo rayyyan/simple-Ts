@@ -8,7 +8,6 @@ type GoogleGeoCodingResponse = {
   result: { geometry: { location: { lat: number; lng: number } } }[]
   status: "OK" | "ZERO_RESULTS"
 }
-declare var google: any
 function searchAddressHandler(event: Event) {
   event.preventDefault()
   const enteredAddress = addressInput.value

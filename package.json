@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/rayyyan/simple-Ts#readme",
   "devDependencies": {
+    "@types/googlemaps": "^3.43.3",
     "clean-webpack-plugin": "^4.0.0",
     "dotenv-webpack": "^7.1.0",
     "ts-loader": "^9.2.7",
